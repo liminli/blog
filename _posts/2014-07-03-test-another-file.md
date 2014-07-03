@@ -1,5 +1,6 @@
 ---
-published: false
+layout: post
+title: 标题
 ---
 
 ## 这是一个标题
