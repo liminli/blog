@@ -14,12 +14,36 @@
 		<article class="page-post typo">
 			<h1>{{ page.title }}</h1>
 			<div class="page-info">
-				<small>{{ page.date|date:"%Y-%m-%d" }} [{{ page.categories }}] {% for tag in page.tags %}
-    <span>#{{ tag }}#</span> 
-{% endfor %} @{{ site.author }}</small>
+				<small>
+					{{ page.date|date:"%Y-%m-%d" }} 
+					{% for categorie in page.categories %}
+						<span>[{{ tag }}]</span> 
+					{% endfor %}
+
+					{% for tag in page.tags %}
+						<span>#{{ tag }}#</span> 
+					{% endfor %} 
+					@{{ site.author }}
+				</small>
 			</div>
 			{{ content }}
 		</article>
+		<div class="page-paginator">
+			<p>
+				<span>
+				{% if page.previous.url %} 
+					上一篇：<a href="{{page.previous.url}}" title="{{page.previous.title}}">{{page.previous.title}}</a>
+			    {% endif %}
+				</span>
+			</p>
+			<p>
+				<span>
+		        {% if page.next.url %} 
+				下一篇：<a href="{{page.next.url}}" title="{{page.next.title}}">{{page.next.title}}</a>
+		        {% endif %} 
+				</span>
+			</p>
+		</div>
 		<footer class="page-foot">
 		    <small>Copyright © 2014 By <a href="/" title="Milly Lee" target="_blank">{{ site.author }}</a> Host By <a href="https://github.com/millylee" title="Github Pages" target="_blank">Github Pages</a></small>
 		</footer>
