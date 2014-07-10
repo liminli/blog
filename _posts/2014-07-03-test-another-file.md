@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 标题
-tags
+tags:
 - 标签
 - 学习
-categories
+categories:
 - 分类
 ---
 
