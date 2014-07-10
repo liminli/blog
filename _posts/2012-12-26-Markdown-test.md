@@ -3,9 +3,6 @@ layout: post
 title: Markdown test
 ---
 
-# Markdown test
-20121226_1650
-
 上传新建blog文件（html或md格式）方法：
 	
 	git add . 
