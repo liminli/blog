@@ -1,6 +1,11 @@
 ---
 layout: post
 title: 标题
+tags
+- 标签
+- 学习
+categories
+- 分类
 ---
 
 ## 这是一个标题
