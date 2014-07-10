@@ -3,3 +3,5 @@ baseurl: /blog
 name: 微阅
 
 author: Milly Lee
+
+permalink: date
