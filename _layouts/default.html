@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-
-　　<html>
-
-　　<head>
-
-　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-　　　　<title>{{ page.title }}</title>
-
-　　</head>
-
-　　<body>
-
-　　　　{{ content }}
-
-　　</body>
-
-　　</html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keyword" content=""/>
+	<meta name="description" content=""/>
+  	<meta name="viewport" content="width=device-width, minimal-ui">
+	<title>{{ site.name }}</title>
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/typo.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css">
+</head>
+<body>
+	<div class="page-wrap">
+		<article class="page-post typo">
+			<h1>{{ site.name }}</h1>
+			{{ content }}
+		</article>
+		<footer class="page-foot">
+		    <small>Copyright © 2014 By <a href="/" title="Milly Lee" target="_blank">{{ site.author }}</a> Host By <a href="https://github.com/millylee" title="Github Pages" target="_blank">Github Pages</a></small>
+		</footer>
+	</div>
+</body>
+</html>
