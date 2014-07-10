@@ -1,0 +1,8 @@
+body{width: 90%; max-width: 960px; border-left: 1px solid #eee; border-right: 1px solid #eee;  margin: 0 auto; -webkit-touch-callout: none; -webkit-text-size-adjust: none; }
+
+.page-wrap {position: relative; padding: 2% 5%;}
+.page-wrap h1 {border-bottom: 1px solid #eee; padding-bottom: 0.2em;}
+  .page-post {}
+  .page-des {font-size: 1em;}
+  .page-foot {text-align: center;}
+  .page-foot small {}
