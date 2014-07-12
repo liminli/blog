@@ -4,4 +4,4 @@ name: 微阅
 
 author: Milly Lee
 
-permalink: date
+permalink: :title.html
